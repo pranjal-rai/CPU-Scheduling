@@ -269,7 +269,7 @@ int main(int argc,char **argv)
     
     vector<pair<double,int> > responseTime_vec,turnaroundTime_vec,waitingTime_vec;
 
-    string arr[]={"FCFS","SJS","RR"};
+    string arr[]={"FCFS","SJF","RR"};
     responseTime_vec.push_back({responseTimeFCFS,0});
     responseTime_vec.push_back({responseTimeSJS,1});
     responseTime_vec.push_back({responseTimeRR,2});
